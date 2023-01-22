@@ -12,6 +12,8 @@ W katalogach `good` `bad` są testy, podzielone na kategorie:
  
 Testy mogą znajdować się w dowolnych podkatalogach. Jeśli test ma input/output, to w tym samym katalogu powinny znajdować się odpowiednio pliki `*.input`, `*.output`
 
+Jeśli test nie ma odpowiadającego pliku `.output`, to znaczy, że jest on po to, żeby sprawdzić, czy kompilator sfailuje/skompiluje kod
+
 ## Użycie
 
 żeby dostać testy z jakiegoś katalogu najlepiej imo używać `find`
