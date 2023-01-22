@@ -15,7 +15,7 @@ class C{
 }
 
 int main(){
-    A a;
+    A a = new A;
     a.b = new B;
     a.b.c = new C;
     a.b.c.x = 10;

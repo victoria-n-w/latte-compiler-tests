@@ -1,0 +1,11 @@
+class A {
+    int atr;
+}
+class B extends A {}
+int main(){
+    A a;
+    a = new B;
+    a.atr = 5;
+    printInt(a.atr);
+    return 0;
+}
