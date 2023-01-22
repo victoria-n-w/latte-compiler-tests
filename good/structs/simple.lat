@@ -10,9 +10,9 @@ int main(){
     a.b = 2;
     a.c = 3;
 
-    printInt(a.a)
-    printInt(a.b)
-    printInt(a.c)
+    printInt(a.a);
+    printInt(a.b);
+    printInt(a.c);
 
     return 0;
 }
