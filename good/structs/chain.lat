@@ -1,0 +1,26 @@
+int main(){
+    A a;
+    a = new A;
+    a.b = new B;
+    a.b.a = new A;
+    a.b.a.b = new B;
+
+    printInt(a.b.x); // 0
+
+    a.b.a.b.x = 1;
+    printInt(a.b.a.b.x); // 1
+    a.b.a.b.x = 5;
+    printInt(a.b.a.b.x); // 5
+
+    return 0;
+}
+
+
+class A {
+    B b;
+}
+
+class B {
+    A a;
+    int x;
+}
