@@ -1,0 +1,18 @@
+
+int calc(int a, int b){
+    int res = 0;
+
+    while (a != b){
+        res++;
+        a++;
+    }
+
+    return res;
+}
+
+
+int main(){
+    printInt(calc(1, 5));
+    printInt(calc(1, 10));
+    return 0;
+}
